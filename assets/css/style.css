@@ -6,9 +6,20 @@ h3 {
 }
 
 p {
-    font-family: 'Exo';
+    font-family: 'Exo' serif;
+    font-weight: normal;
 }
 
 .col-md-2 {
     margin: auto;
+}
+
+h2 {
+    font-family: 'Bungee Inline', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wins-num {
+    text-align: center;
 }

@@ -3,50 +3,58 @@
 
 $(document).ready(function(){
 
-    // Set variable for target random number
+    // Set Global variable for target random number between 19 and 120 and other globa variables:
     var targetRandomNum = Math.floor(Math.random() * 102 + 19);
-    console.log(targetRandomNum);
-
-    // Make sure to put div with #number-to-guess
-    $("#number-to-guess").text(targetRandomNum)
-
     var counter = 0;
-    // console.log(counter);
     var wins = 0;
-    // console.log(wins);
     var losses = 0;
-    // console.log(losses);
-
+    
     // Declaring variables for scores
-    $("#wins-num").append(wins);
-    $("#losses-num").append(losses);
+    $("#number-to-guess").text(targetRandomNum).css('text-align', 'center');
+    $("#wins-num").append(wins).css('text-align', 'center');
+    $("#losses-num").append(losses).css('text-align', 'center');
+    $("#score-counter").append(counter).css('text-align', 'center');
 
     // variable with 4 crystals as objects which will be random numbers from 1 - 12
     var crystals = {
-        crystalOne: {
+        crystal1: {
             points: Math.floor(Math.random() * 12 + 1),
         },
-
-        crystalTwo: {
+        crystal2: {
             points: Math.floor(Math.random() * 12 + 1),
         },
-
-        crystalThree: {
+        crystal3: {
             points: Math.floor(Math.random() * 12 + 1),
         },
-
-        crystalFour: {
+        crystal4: {
             points: Math.floor(Math.random() * 12 + 1),
         }
     }
-    console.log(crystals);
 
-    for (var i in crystals) {
-        var imgCrystalOne = $("<img>");
-        var imgCrystalTwo = $("<img>");
-        var imgCrystalThree = $("<img>");
-        var imgCrystalFour = $("<img>");
+// Reset game
+function reset() {
+    var targetRandomNum = Math.floor(Math.random() * 102 + 19);
+    $("#number-to-guess").text(targetRandomNum).css('text-align', 'center');
+    var crystals = {
+        crystal1: {
+            points: Math.floor(Math.random() * 12 + 1),
+        },
+        crystal2: {
+            points: Math.floor(Math.random() * 12 + 1),
+        },
+        crystal3: {
+            points: Math.floor(Math.random() * 12 + 1),
+        },
+        crystal4: {
+            points: Math.floor(Math.random() * 12 + 1),
+        }
     }
+    var counter = 0;
+    $("#score-counter").append(counter).css('text-align', 'center');
+
+}
+// Functions
+
 
 
 
