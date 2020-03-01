@@ -1,4 +1,5 @@
-// Worked with my studygroup on writing this. 
+// Worked with my studygroup on writing this. .
+// Thanks to the cooperation of Amy Haerr, Kortnie Evans, Haylee McClemore, Chelsey Masood.
 
 $(document).ready(function(){
 
@@ -17,12 +18,10 @@ $(document).ready(function(){
     var crystals = {
         crystalOne: {
             points: Math.floor(Math.random() * 12 + 1),
-            // image: 
         },
 
         crystalTwo: {
             points: Math.floor(Math.random() * 12 + 1),
-            // image: 
         },
 
         crystalThree: {
@@ -36,7 +35,10 @@ $(document).ready(function(){
     console.log(crystals);
 
     for (var i in crystals) {
-        var imgCrystal_1 = $("<img>");
+        var imgCrystalOne = $("<img>");
+        var imgCrystalTwo = $("<img>");
+        var imgCrystalThree = $("<img>");
+        var imgCrystalFour = $("<img>");
     }
 
 
