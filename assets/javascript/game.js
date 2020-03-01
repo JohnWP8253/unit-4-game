@@ -1,7 +1,9 @@
+// Worked with my studygroup on writing this. 
+
 $(document).ready(function(){
 
-    // 
-    var targetRandomNum = Math.floor(Math.random() * 155 + 46)
+    // Set variable for target random number
+    var targetRandomNum = Math.floor(Math.random() * 102 + 19);
     console.log(targetRandomNum);
 
     // Make sure to put div with #number-to-guess
@@ -11,24 +13,24 @@ $(document).ready(function(){
     console.log(counter);
 
    
-
+    // variable with 4 crystals as objects
     var crystals = {
-        crystal_1: {
-            points: Math.floor(Math.random() * 16 + 5),
-            image: 
+        crystalOne: {
+            points: Math.floor(Math.random() * 12 + 1),
+            // image: 
         },
 
-        crystal_2: {
-            points: Math.floor(Math.random() * 11 + 5),
-            image: 
+        crystalTwo: {
+            points: Math.floor(Math.random() * 12 + 1),
+            // image: 
         },
 
-        crystal_3: {
-            points: Math.floor(Math.random() * 31 + 5),
+        crystalThree: {
+            points: Math.floor(Math.random() * 12 + 1),
         },
 
-        crystal_4: {
-            points: Math.floor(Math.random() * 25+ 6),
+        crystalFour: {
+            points: Math.floor(Math.random() * 12 + 1),
         }
     }
     console.log(crystals);
