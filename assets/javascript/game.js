@@ -8,16 +8,19 @@ $(document).ready(function(){
     console.log(targetRandomNum);
 
     // Make sure to put div with #number-to-guess
-    // $("number-to-guess").text(targetRandomNum)
+    $("#number-to-guess").text(targetRandomNum)
 
     var counter = 0;
-    console.log(counter);
+    // console.log(counter);
     var wins = 0;
-    console.log(wins);
+    // console.log(wins);
     var losses = 0;
-    console.log(losses);
+    // console.log(losses);
 
-   
+    // Declaring variables for scores
+    $("#wins-num").append(wins);
+    $("#losses-num").append(losses);
+
     // variable with 4 crystals as objects
     var crystals = {
         crystalOne: {
