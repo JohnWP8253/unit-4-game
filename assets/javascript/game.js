@@ -21,7 +21,7 @@ $(document).ready(function(){
     $("#wins-num").append(wins);
     $("#losses-num").append(losses);
 
-    // variable with 4 crystals as objects
+    // variable with 4 crystals as objects which will be random numbers from 1 - 12
     var crystals = {
         crystalOne: {
             points: Math.floor(Math.random() * 12 + 1),
