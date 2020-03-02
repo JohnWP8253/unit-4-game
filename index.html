@@ -45,26 +45,29 @@
           <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-              <p class="text-center">
-                You will be given a random number at the start of the game.
-              </p>
-              <p class="text-center">
-                There are four crystals below. By clicking on a crystal, you
-                will add a specific amount of points to your total score.
-              </p>
-              <p class="text-center">
-                You win the game by matching your total score to random number.
-                You lose the game if your total score goes above the random
-                number.
-              </p>
-              <p class="text-center">
-                The value of each crystal is hidden from you until you click on
-                it.
-              </p>
-              <p class="text-center">
-                Each time the game starts, the value of each crystal will
-                change.
-              </p>
+              <div class="instructions">
+                <header class="text-center">Instructions</header>
+                <p class="text-center">
+                  You will be given a random number at the start of the game.
+                </p>
+                <p class="text-center">
+                  There are four crystals below. By clicking on a crystal, you
+                  will add a specific amount of points to your total score.
+                </p>
+                <p class="text-center">
+                  You win the game by matching your total score to random
+                  number. You lose the game if your total score goes above the
+                  random number.
+                </p>
+                <p class="text-center">
+                  The value of each crystal is hidden from you until you click
+                  on it.
+                </p>
+                <p class="text-center">
+                  Each time the game starts, the value of each crystal will
+                  change.
+                </p>
+              </div>
             </div>
             <div class="col-md-3"></div>
           </div>
@@ -79,15 +82,23 @@
               <h2>
                 Your tally:
               </h2>
-              <div id="wins-num">Wins: </div>
-              <div id="losses-num">Losses: </div>
+              <h6>Wins</h6>
+              <div id="wins-num">
+              </div>
+              <h6>Losses</h6>
+              <div id="losses-num">
+              </div>
             </div>
             <div class="col-md-3"></div>
           </div>
           <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-2">
-              <input id="blue" type="image" src="assets/images/blueDiamond.jpeg" />
+              <input
+                id="blue"
+                type="image"
+                src="assets/images/blueDiamond.jpeg"
+              />
             </div>
             <div class="col-md-2">
               <input id="green" type="image" src="assets/images/emerald.jpeg" />

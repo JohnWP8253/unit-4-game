@@ -18,7 +18,15 @@ h3 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+header {
+    font-weight: bolder;
+    font-size: 30px;
+}
 
+.instructions {
+    background-image: url("../images/moritz-weibold-3usWtAtVR-8-unsplash.jpg");
+    color: whitesmoke;
+}
 p {
     font-family: 'Exo' serif;
     font-weight: normal;
@@ -31,6 +39,10 @@ p {
 h2 {
     font-family: 'Bungee Inline', sans-serif;
     font-size: 20px;
+    text-align: center;
+}
+
+h6 {
     text-align: center;
 }
 
