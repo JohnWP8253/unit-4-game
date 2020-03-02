@@ -1,8 +1,22 @@
 
+.page-header {
+    background-image: url("../images/joanna-kosinska-Uvl3W4XWd4U-unsplash.jpg");
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 h1,
 h3 {
     font-family: 'Righteous', sans-serif;
     text-align: center;
+}
+
+#subtitle {
+    background-image: url("../images/daniele-levis-pelusi-NXt2h4AQZVU-unsplash.jpg");
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 p {
