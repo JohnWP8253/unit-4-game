@@ -1,4 +1,10 @@
 
+.container-fluid {
+    background-image: url("/assets/images/webb.png");
+
+
+}
+
 .page-header {
     background-image: url("../images/joanna-kosinska-Uvl3W4XWd4U-unsplash.jpg");
     color: white;
@@ -13,8 +19,9 @@ h3 {
 }
 
 #subtitle {
-    background-image: url("../images/daniele-levis-pelusi-NXt2h4AQZVU-unsplash.jpg");
-    color: white;
+   
+    
+    color: red;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -24,16 +31,34 @@ header {
 }
 
 .instructions {
-    background-image: url("../images/moritz-weibold-3usWtAtVR-8-unsplash.jpg");
-    color: whitesmoke;
+    border: red solid 1px;
+    color: black;
 }
 p {
     font-family: 'Exo' serif;
     font-weight: normal;
 }
 
+
 .col-md-2 {
     margin: auto;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+#score-container {
+    border: black solid 1px;
+    padding-top: 20px;
+    height: 100px;
+    margin-top: 30px;
+
+}
+
+#tally-container {
+    border: black solid 1px;
+    padding-top: 20px;
+    height: 175px;
+    margin-top: 30px;
 }
 
 h2 {
