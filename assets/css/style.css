@@ -1,8 +1,6 @@
 
-.container-fluid {
-    background-image: url("/assets/images/webb.png");
-
-
+body {
+    background-image: url("/assets/images/carole-smile-SSoCY-Xi3iY-unsplash.jpg");
 }
 
 .page-header {
@@ -19,8 +17,6 @@ h3 {
 }
 
 #subtitle {
-   
-    
     color: red;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -43,14 +39,14 @@ p {
 .col-md-2 {
     margin: auto;
     padding-top: 30px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 #score-container {
     border: black solid 1px;
     padding-top: 20px;
     height: 100px;
-    margin-top: 30px;
+    margin-top: 60px;
 
 }
 
