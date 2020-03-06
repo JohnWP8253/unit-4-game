@@ -13,7 +13,7 @@ The crystals will only be numbers from 1 - 12. Gooc luck!
 
 ## Author and acknowledgement
 Author: John Pendergrass
-Contributions by: 
+Collaborated with: 
 1. Amy Haerr
 2. Kornie Heidel
 3. Haylee McClemore
@@ -22,4 +22,4 @@ Contributions by:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. 
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+No required
