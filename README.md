@@ -9,11 +9,12 @@ jQuery coded game for 4th assignment of the Vanderbilt Coding Bootcamp
 5. Each time the game starts/restarts, the value of each crystal and Number to guess will change. 
 
 ### Hint: 
-The crystals will only be numbers from 1 - 12. Gooc luck!
+The crystals will only be numbers from 1 - 12. Good luck!
 
 ## Author and acknowledgement
 Author: John Pendergrass
-Collaborated with: 
+
+#### Collaborated with: 
 1. Amy Haerr
 2. Kornie Heidel
 3. Haylee McClemore
