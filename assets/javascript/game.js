@@ -34,10 +34,10 @@ $(document).ready(function () {
         crystals.crystal3.value = Math.floor(Math.random() * 12 + 1);
         crystals.crystal4.value = Math.floor(Math.random() * 12 + 1);
 
-        $("#number-to-guess").text(targetRandomNum).css('text-align', 'center');
-        $("#wins-num").text(wins).css('text-align', 'center');
-        $("#losses-num").text(losses).css('text-align', 'center');
-        $("#score-counter").text(counter).css('text-align', 'center');
+        $("#number-to-guess").text(targetRandomNum).css('text-align', 'center').css('font-weight', 'bold');
+        $("#wins-num").text(wins).css('text-align', 'center').css('font-weight', 'bold');
+        $("#losses-num").text(losses).css('text-align', 'center').css('font-weight', 'bold');
+        $("#score-counter").text(counter).css('text-align', 'center',).css('font-weight', 'bold');
 
         counter = 0;
     };

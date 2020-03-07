@@ -58,8 +58,9 @@ p {
     padding-top: 20px;
     height: 100px;
     margin-top: 60px;
-    background: thistle;
-
+    background-image: url("../images/scott-mcculloch-Jh_2BmhfFAg-unsplash.jpg");
+    background-repeat:no-repeat;
+    background-size: cover; 
 }
 
 #tally-container {
@@ -68,7 +69,9 @@ p {
     padding-top: 20px;
     height: 175px;
     margin-top: 30px;
-    background: thistle;
+    background-image: url("../images/scott-mcculloch-Jh_2BmhfFAg-unsplash.jpg");
+    background-repeat:no-repeat;
+    background-size: cover; 
 }
 
 h2 {
@@ -82,10 +85,14 @@ h2 {
     border-radius: 25px;
     margin: 20px;
     padding: 10px;
-    background-color: seashell;
+    background-image: url("../images/scott-mcculloch-Jh_2BmhfFAg-unsplash.jpg");
+    background-repeat:no-repeat;
+    background-size: cover; 
+    fill-opacity: 0.5;
 }
 h6 {
     text-align: center;
+    font-weight: bolder;
 }
 
 .wins-num {
@@ -110,4 +117,17 @@ h6 {
 #red {
     border: red solid 2px;
     border-radius: 25px;
+}
+
+@media screen and (max-width: 980px) {}
+
+  @media screen and (max-width: 768px) {}
+
+  @media screen and (max-width: 640px) {
+    #blue,
+    #green,
+    #yellow,
+    #red img {
+        size: 10%;
+    }
 }
