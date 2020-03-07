@@ -124,10 +124,6 @@ h6 {
   @media screen and (max-width: 768px) {}
 
   @media screen and (max-width: 640px) {
-    #blue,
-    #green,
-    #yellow,
-    #red img {
-        size: 10%;
+    /* tried to code the buttons to be media responsive by making a 2x2 grid */
     }
 }
