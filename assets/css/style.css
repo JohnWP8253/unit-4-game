@@ -1,6 +1,8 @@
 
 body {
-    background-image: url("/assets/images/carole-smile-SSoCY-Xi3iY-unsplash.jpg");
+    margin: 0;
+    background-image: url("../images/webb.png");
+   
 }
 
 .page-header {
@@ -16,8 +18,11 @@ h3 {
     text-align: center;
 }
 
-#subtitle {
+h3 {
     color: red;
+}
+
+#subtitle {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -33,6 +38,7 @@ header {
 p {
     font-family: 'Exo' serif;
     font-weight: normal;
+    font-size: 15px;
 }
 
 
@@ -63,6 +69,11 @@ h2 {
     text-align: center;
 }
 
+#score-square {
+    border: red solid 1px;
+    margin: 20px;
+    padding: 10px;
+}
 h6 {
     text-align: center;
 }
